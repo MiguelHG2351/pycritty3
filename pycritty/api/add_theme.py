@@ -1,8 +1,13 @@
 import toml
+from pathlib import Path
 
-with open('./alacritty.toml', 'r') as f:
-    config = toml.load(f)
-    print(config['env']['TERM'])
+print(Path.cwd())
+
+# with open('./alacritty.toml', 'r') as f:
+#     config = toml.load(f)
+#     print(config['env']['TERM'])
+#     print(config['font']['normal'])
+#     print(config['font']['size'])
 
 
 #
