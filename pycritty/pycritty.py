@@ -37,6 +37,8 @@ class Pycritty:
         with open(filename, "a+") as f:
             f.write(f"{name}: {description} [Priority {PRIORITIES[priority]} ]\n")
 
+
+
     def run(self):
         print("Hello World")
         mycommands.add_command(self.add_todos)
